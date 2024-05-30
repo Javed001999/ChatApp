@@ -8,8 +8,8 @@ const server = http.createServer(app);
 
 const io = new Server(server,{
     cors:{
-        // origin:["https://chat-app-y092.onrender.com"],
-        origin:"http://localhost:3001",
+        origin:["https://chatapp-tntf.onrender.com"],
+        // origin:"http://localhost:3001",
         methods:["GET","POST"],
     }
 })
